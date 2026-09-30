@@ -1,5 +1,9 @@
 # **NexusRAG: Corpus-Guided Propagation for Graph Retrieval-Augmented Generation**
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2609.37661"><img src="https://img.shields.io/badge/arXiv-2609.37661-B31B1B.svg" alt="arXiv"></a>
+</p>
+
 > NexusRAG builds the retrieval graph without any LLM-based relation extraction. Entity neighbors are selected by fusing co-occurrence statistics with semantic similarity, and query-relevant entities are then activated by a dual-path propagation mechanism that gates query-similar sentences with the structural prior and expands the resulting frontier along the neighbor structure.
 
 ---
@@ -198,3 +202,16 @@ results/alpha_sweep_s<>_k<top_k_entity_cooccur>_<llm_model>/
 ## 📄 **License**
 
 Released under the **GNU General Public License v3.0 (GPL-3.0)**. See [`LICENSE.txt`](LICENSE.txt) for the full text.
+
+
+## Citation
+
+```bibtex
+@article{liu2026nexusrag,
+  title={Corpus-Guided Dual-Path Propagation for Graph Retrieval-Augmented Generation},
+  author={Liu, Baoxian and Wei, Tong},
+  journal={arXiv preprint arXiv:2609.37661},
+  year={2026}
+}
+
+```
